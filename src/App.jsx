@@ -14,6 +14,7 @@ function App() {
       {/* <Counter /> */}
 
       <div className='panel'>
+        
         <div className='panel-label'>ຈຸດກວດທີ 1</div>
         <SearchBar searchText={searchText} onChange={setSearchtext}/>
 
