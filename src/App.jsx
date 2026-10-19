@@ -7,6 +7,7 @@ import { useState } from "react";
 function App() {
   const [searchText, setSearchtext] = useState("")
   const [filter, setFilter] = useState("all")
+  
 
   return (
     <div className='wrap'>
