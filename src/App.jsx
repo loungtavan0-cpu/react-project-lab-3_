@@ -8,14 +8,13 @@ function App() {
   const [searchText, setSearchtext] = useState("")
   const [filter, setFilter] = useState("all")
   
-
   return (
     <div className='wrap'>
       <h1>My Todo List:</h1>
       {/* <Counter /> */}
 
       <div className='panel'>
-        
+
         <div className='panel-label'>ຈຸດກວດທີ 1</div>
         <SearchBar searchText={searchText} onChange={setSearchtext}/>
 
